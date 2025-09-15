@@ -1,0 +1,39 @@
+:root
+{
+background-color: rgb(236, 248, 255);
+}
+.darkmode
+{
+    background-color: #000000;
+    color: #ffffff;
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    border: white;
+}
+h1
+{
+    text-align: center;
+    font-size: 42px;
+    font-weight: bold;
+}
+
+th
+{
+    width: 100vw;
+    font-size: 24pt;
+    border: solid,black,2px;
+    
+}
+table
+{
+
+
+}
+
+td
+{
+    width: 100vw;
+    font-size: 20pt;
+    border: solid,black,1px;
+}
