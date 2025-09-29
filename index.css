@@ -1,15 +1,25 @@
-:root
+body
 {
-background-color: rgb(236, 248, 255);
-}
-.darkmode
-{
-    background-color: #000000;
-    color: #ffffff;
     margin: 0;
     width: 100vw;
     height: 100vh;
-    border: white;
+    
+}
+:root
+{
+background-color: rgb(240, 216, 216);
+}
+.darkmode
+{
+    background: linear-gradient(#000000);
+    color: #ffffff;
+    & th, & td , & #alfakeret, & header
+    {
+        border-color: #ffffff;
+    }
+    & #ikon {
+        filter: invert(1);
+    }
 }
 h1
 {
@@ -23,12 +33,8 @@ th
     width: 100vw;
     font-size: 24pt;
     border: solid,black,2px;
+    border-radius: 5px;
     
-}
-table
-{
-
-
 }
 
 td
@@ -36,4 +42,107 @@ td
     width: 100vw;
     font-size: 20pt;
     border: solid,black,1px;
+}
+
+#toggleColorschemeButton
+{
+    margin: 25px;
+    width: 150px;
+}
+header
+{
+    border: solid,black,.5px;
+    border-left: 0px;
+    border-right: 0px;
+    display: flex;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px;
+}
+#alfa
+{
+    width: 100%;
+    height: 100%;
+    margin-bottom: -30px;
+}
+
+#ikon
+{
+    width: 20px;
+    height: 20px;
+    margin-bottom: -4px;
+}
+#alfakeret
+{
+    border-radius: 2px;
+    width: 75px;
+    height: 75px;
+    overflow: hidden;
+    border: solid,black,1px;
+}
+.email
+{
+    margin-left: 40px;
+}
+.telefon
+{
+    margin-left: 40px;
+    
+}
+#nap
+{
+    border: solid 2px;
+    text-align: center;
+    font-weight: bolder;
+}
+.szekhely
+{
+    margin-left: 255px;
+}
+
+#setmode_container{
+    border-radius: 100px;
+    height: 38px;
+    width: 64px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    border: solid 1px white;
+    box-shadow: 0px 0px 8px 0px white;
+    margin-left:15px;
+}
+#csuszka{
+    width: 32px;
+    height: 32px;
+    border-radius: 100px;
+    background-color: white;
+    transition: margin 0.4s;
+    margin-left: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black !important;
+}
+#baldiv
+{
+    text-align: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#kozdiv
+{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#jobbdiv
+{
+    text-align: right;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
 }
