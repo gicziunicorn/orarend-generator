@@ -1,4 +1,4 @@
-<p style="text-align: center;">AlphaCode</p>
+![alt text](https://github.com/gicziunicorn/orarend-generator/blob/main/pfp.png)AlphaCode
 
 **Tartalom**
 
