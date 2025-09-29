@@ -1,4 +1,4 @@
-<center># AlphaCode
+<center># AlphaCode</center>
 
 **Tartalom**
 
