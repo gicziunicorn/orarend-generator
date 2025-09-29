@@ -7,9 +7,13 @@ var darkmode = document.body.classList.contains("darkmode");
 
 function load() {
     if(darkmode){
-        document.getElementById("toggleColorschemeButton").innerText = "Set to darkmode";
+        csuszka.style.marginLeft = "28px";
+        moon.style.display = "block";
+        sun.style.display = "none";
     } else {
-        document.getElementById("toggleColorschemeButton").innerText = "Set to ligthmode";
+        csuszka.style.marginLeft = "2px";
+        moon.style.display = "none";
+        sun.style.display = "block";
     }
 }
 document.onload = load();
@@ -26,4 +30,5 @@ function swithc() {
         sun.style.display = "block";
     }
     document.body.classList.toggle("darkmode");
+
 }
