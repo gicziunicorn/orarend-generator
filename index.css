@@ -3,29 +3,38 @@ body
     margin: 0;
     width: 100vw;
     height: 100vh;
-    
-}
-:root
-{
-background-color: rgb(240, 216, 216);
+    background-color: #e6e6e6;
 }
 .darkmode
 {
-    background: linear-gradient(#000000);
+    background: #000000;
     color: #ffffff;
     & th, & td , & #alfakeret, & header
     {
         border-color: #ffffff;
     }
-    & #ikon {
+    & .ikon {
         filter: invert(1);
     }
 }
+img{
+    user-select: none;
+}
+
+
 h1
 {
     text-align: center;
     font-size: 42px;
     font-weight: bold;
+}
+
+#email{
+    margin-right: 5px;
+}
+
+table {
+    margin-top: 10px;
 }
 
 th
@@ -54,36 +63,45 @@ header
     border: solid,black,.5px;
     border-left: 0px;
     border-right: 0px;
-    display: flex;
-    align-items: center;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
     font-family: Arial, Helvetica, sans-serif;
-    padding: 5px;
+    padding: 0 15px;
 }
-#alfa
-{
-    width: 100%;
-    height: 100%;
-    margin-bottom: -30px;
-}
-
-#ikon
+.ikon
 {
     width: 20px;
     height: 20px;
-    margin-bottom: -4px;
+}
+
+
+#alfa{
+    width: 100%;
+    height: 100%;
+    aspect-ratio: 1;
 }
 #alfakeret
 {
-    border-radius: 2px;
     width: 75px;
     height: 75px;
-    overflow: hidden;
     border: solid,black,1px;
+    margin-right: 20px;
+    overflow: hidden;
+    border-radius: 10px;
 }
-.email
-{
-    margin-left: 40px;
+#adatok{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    & p{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 2px 0;
+    }
 }
+
 .telefon
 {
     margin-left: 40px;
@@ -94,10 +112,6 @@ header
     border: solid 2px;
     text-align: center;
     font-weight: bolder;
-}
-.szekhely
-{
-    margin-left: 255px;
 }
 
 #setmode_container{
@@ -129,7 +143,7 @@ header
     text-align: left;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: start;
 }
 #kozdiv
 {
@@ -141,8 +155,9 @@ header
 #jobbdiv
 {
     text-align: right;
+    padding-right: 10px;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-end;
     
 }
