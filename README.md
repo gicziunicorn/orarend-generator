@@ -1,4 +1,4 @@
-<center># AlphaCode</center>
+<p style="text-align: center;">AlphaCode</p>
 
 **Tartalom**
 
