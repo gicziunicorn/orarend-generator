@@ -13,7 +13,7 @@ body
     {
         border-color: #ffffff;
     }
-    & .ikon {
+    & .ikon {   
         filter: invert(1);
     }
 }
@@ -50,7 +50,9 @@ td
 {
     width: 100vw;
     font-size: 20pt;
-    border: solid,black,1px;
+    border: solid,black,2px;
+    border-radius: 5px;
+    text-align: center;
 }
 
 #toggleColorschemeButton
