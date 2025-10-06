@@ -13,7 +13,7 @@ body
     {
         border-color: #ffffff;
     }
-    & .ikon {   
+    & .ikon {
         filter: invert(1);
     }
 }
@@ -43,7 +43,11 @@ th
     font-size: 24pt;
     border: solid,black,2px;
     border-radius: 5px;
-    
+    text-align: center;
+}
+
+#elsodiv{
+    padding: 0 10px;
 }
 
 td
@@ -62,6 +66,7 @@ td
 }
 header
 {
+    height: 105px;
     border: solid,black,.5px;
     border-left: 0px;
     border-right: 0px;
