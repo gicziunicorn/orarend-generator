@@ -70,6 +70,7 @@ function generalj() {
             let orak = kesz[i-1];
             for(let j=0;j<orak.length;j++){
                 row[j+1].innerText = orak[j];
+                row[j+1].classList.add(orak[j]);
             }
         }
     }
@@ -78,3 +79,12 @@ function generalj() {
 }
 
 window.onload = generalj();
+
+var tema = document.getElementById("tema");
+tema.addEventListener("change",(e) => {
+    console.log(document.getElementById("tema").value);
+    
+    style = document.getElementById("theme");
+    style.href = tema.value + ".css";
+    
+})

@@ -1,0 +1,28 @@
+.tesi {
+    background-color: blue;
+}
+.matek {
+    background-color: #9808d1;
+}
+.magyar {
+    background-color: #3dd2ff;
+}
+.informatika {
+    background-color: #5d5d63;
+}
+.fizika {
+    background-color: #009b27;
+}
+.töri{
+    background-color: #fd923b;
+}
+.osztályfőnöki{
+    background-color: #e313ff;
+}
+.angol{
+    background-color: #3a46f1;
+}
+
+.tesi, .matek, .informatika {
+    color: white;
+}

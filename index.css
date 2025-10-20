@@ -13,7 +13,7 @@ body
     {
         border-color: #ffffff;
     }
-    & .ikon & #reset {
+    & .ikon, & #reset {
         filter: invert(1);
     }
 }
@@ -39,7 +39,7 @@ table {
 
 th
 {
-    width: 100vw;
+    width: 10%;
     font-size: 14pt;
     border: solid black 2px;
     border-radius: 10px;
@@ -185,4 +185,9 @@ header
 {
     font-size: 20pt;
     font-weight: bold;
+}
+
+#tema{
+    margin:0 20px;
+    font-size: 20px;
 }
