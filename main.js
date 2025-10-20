@@ -63,11 +63,14 @@ function generalj() {
     let table = document.getElementById("orarend");
     let tableRows = table.children[0].children;
     
-    for(let i=0;i<orarend.length;i++){
-        let row = tableRows[i+1].children;
-        let orak = kesz[i];
-        for(let j=0;j<orak.length;j++){
-            row[j+1].innerText = orak[j];
+    for(let i=1;i<orarend.length;i++){
+        if(tableRows[i]){
+            let row = tableRows[i].children;
+            
+            let orak = kesz[i-1];
+            for(let j=0;j<orak.length;j++){
+                row[j+1].innerText = orak[j];
+            }
         }
     }
 

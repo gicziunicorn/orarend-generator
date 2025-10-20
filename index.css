@@ -9,7 +9,7 @@ body
 {
     background: #000000;
     color: #ffffff;
-    & th & td  & #alfakeret & header & #reset
+    & th, & td,  & #alfakeret, & header, & #reset
     {
         border-color: #ffffff;
     }
@@ -42,7 +42,7 @@ th
     width: 100vw;
     font-size: 14pt;
     border: solid black 2px;
-    border-radius: 5px;
+    border-radius: 10px;
     font-weight: normal;
     
 }
@@ -111,6 +111,7 @@ header
 .nap
 {
     border: solid 2px;
+    border-radius: 10px;
     text-align: center;
     font-weight: bolder;
 }
