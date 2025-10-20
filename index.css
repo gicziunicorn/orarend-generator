@@ -9,11 +9,11 @@ body
 {
     background: #000000;
     color: #ffffff;
-    & th, & td , & #alfakeret, & header, & #reset
+    & th & td  & #alfakeret & header & #reset
     {
         border-color: #ffffff;
     }
-    & .ikon, & #reset {
+    & .ikon & #reset {
         filter: invert(1);
     }
 }
@@ -41,7 +41,7 @@ th
 {
     width: 100vw;
     font-size: 14pt;
-    border: solid,black,2px;
+    border: solid black 2px;
     border-radius: 5px;
     font-weight: normal;
     
@@ -51,7 +51,7 @@ td
 {
     width: 100vw;
     font-size: 20pt;
-    border: solid,black,1px;
+    border: solid black 1px;
 }
 
 #toggleColorschemeButton
@@ -61,7 +61,7 @@ td
 }
 header
 {
-    border: solid,black,.5px;
+    border: solid black .5px;
     border-left: 0px;
     border-right: 0px;
     display:grid;
@@ -85,7 +85,7 @@ header
 {
     width: 75px;
     height: 75px;
-    border: solid,black,1px;
+    border: solid black 1px;
     margin-right: 20px;
     overflow: hidden;
     border-radius: 10px;
@@ -108,7 +108,7 @@ header
     margin-left: 40px;
     
 }
-#nap
+.nap
 {
     border: solid 2px;
     text-align: center;
