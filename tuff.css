@@ -1,15 +1,17 @@
 body {
-    background-image: url(pics/tuff-bg.png);
-    background-size: cover;
-    background-repeat: no-repeat;
+    background-image: url(pics/tuff-bg.png) !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
     & *{
         color: white !important;
         border-color: white !important;
     }
 }
+
 table {
     margin: 10px;
     height: 100%;
+    margin: 0 !important;
     border-collapse: collapse;
     & tr:first-child *{
         border-top: 0px !important;
@@ -26,9 +28,18 @@ table {
 }
 
 #elsodiv {
-    margin: 20px;
-    height: calc(100vh - 105px - 50px);
-    padding: 5px;
+    margin: 20px auto;
+    padding: 15px;
+    height: 60vh;
     border: 2px solid white;
     background-color: #00000049;
+    width: fit-content;
+}
+
+select, option {
+    color: black !important;
+}
+
+svg *{
+    color: black !important;
 }
