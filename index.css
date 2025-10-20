@@ -9,32 +9,16 @@ body
 {
     background: #000000;
     color: #ffffff;
-    & th, & td , & #alfakeret, & header
+    & th, & td , & #alfakeret, & header, & #reset
     {
         border-color: #ffffff;
     }
-    & .ikon {
+    & .ikon, & #reset {
         filter: invert(1);
     }
 }
 img{
     user-select: none;
-}
-
-
-#reset{
-    padding: 0;
-    margin: 0;
-    width: 37px;
-    height: 37px;
-    border-radius: 50%;
-    border: 1px solid black;
-    box-shadow: 0px 0px 4px 0px black;
-}
-
-#reset img{
-    width: 25px;
-    height: 25px;
 }
 
 
@@ -56,23 +40,18 @@ table {
 th
 {
     width: 100vw;
-    font-size: 24pt;
+    font-size: 14pt;
     border: solid,black,2px;
     border-radius: 5px;
-    text-align: center;
-}
-
-#elsodiv{
-    padding: 0 10px;
+    font-weight: normal;
+    
 }
 
 td
 {
     width: 100vw;
     font-size: 20pt;
-    border: solid,black,2px;
-    border-radius: 5px;
-    text-align: center;
+    border: solid,black,1px;
 }
 
 #toggleColorschemeButton
@@ -82,7 +61,6 @@ td
 }
 header
 {
-    height: 105px;
     border: solid,black,.5px;
     border-left: 0px;
     border-right: 0px;
@@ -183,4 +161,27 @@ header
     align-items: center;
     justify-content: flex-end;
     
+}
+#reset{
+    padding: 0;
+    margin: 0;
+    width: 37px;
+    height: 37px;
+    border-radius: 50%;
+    border: 1px solid black;
+    box-shadow: 0px 0px 4px 0px black;
+}
+
+#reset img{
+    width: 25px;
+    height: 25px;
+}
+#orarend
+{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.felsosor
+{
+    font-size: 20pt;
+    font-weight: bold;
 }
