@@ -30,7 +30,9 @@
 
 ## A weboldal használata
 
-\- még fejlesztés alatt -
+A weboldal betöltésekor az generál egy órarendet.
+Az oldal frissítéssel (Ctrl + R) újragenerálja.
+Az oldal témája a csúszkával váltható sötét és világos mód között.
 
 # Fejlesztői leírás
 
